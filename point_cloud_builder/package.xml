@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>point_cloud_builder</name>
+  <version>1.0.0</version>
+  <description>build 3d point cloud</description>
+  <license>BSD</license>
+  <maintainer email="trichmo@ncsu.edu">SLAM_STEREO</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>tf</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>opencv</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>urdf</build_depend>
+
+  <run_depend>tf</run_depend>
+  <run_depend>tf2_ros</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rosconsole</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>opencv</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+
+</package>

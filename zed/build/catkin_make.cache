@@ -1,0 +1,2 @@
+zed-ros-wrapper
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/Workspace/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Workspace/catkin_ws/install -G Unix Makefiles

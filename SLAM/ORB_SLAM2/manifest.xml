@@ -1,0 +1,22 @@
+<package>
+  <description brief="ORB_SLAM2">
+
+     ORB_SLAM2
+
+  </description>
+  <author>Raul Mur-Artal</author>
+  <license>GPLv3</license>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="tf2_ros"/>
+  <depend package="sensor_msgs"/>
+  <depend package="visualization_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+  <depend package="geometry_msgs"/>
+  <depend package="depthimage_to_laserscan"/>
+  <depend package="nav_msgs"/>
+</package>
+
+
+
